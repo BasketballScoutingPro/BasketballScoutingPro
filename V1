@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BasketballScoutingPro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; line-height: 1.6; }
+    header { background: #1f2937; color: white; padding: 2rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    section { padding: 2rem; max-width: 1000px; margin: auto; }
+    h2 { color: #1f2937; }
+    .plan-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+    .plan-table th, .plan-table td { border: 1px solid #ddd; padding: 0.75rem; text-align: left; }
+    .plan-table th { background: #1f2937; color: white; }
+    .button { display: inline-block; background: #1f2937; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 5px; margin-top: 1rem; }
+    footer { background: #1f2937; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BasketballScoutingPro</h1>
+    <p>Advanced video scouting for professional basketball teams</p>
+    <a href="#plans" class="button">View Plans</a>
+    <a href="#contact" class="button">Contact Me</a>
+  </header>
+
+  <section>
+    <h2>Why This Service?</h2>
+    <p><strong>Martí Zamora</strong> is a professional basketball coach from Spain with over 10 years of experience in France, Spain, Germany, and Africa. Specialized in video scouting and tactical analysis.</p>
+    <p><strong>The problem:</strong> Staffs spend countless hours on film work.</p>
+    <p><strong>The solution:</strong> A custom-built report, 10 days before the game, saving time and enhancing preparation.</p>
+  </section>
+
+  <section>
+    <h2>What You Get</h2>
+    <ul>
+      <li><strong>Opponent Playbook:</strong> Structured offensive actions (sets, transitions, ATOs, etc.)</li>
+      <li><strong>System Efficiency:</strong> Data-driven analysis of which plays generate points</li>
+      <li><strong>Defensive Principles:</strong> Team’s rotations, PnR coverages, help-side reads</li>
+      <li><strong>Player Scouting:</strong> Detailed habits, strengths, and weaknesses</li>
+    </ul>
+    <p><strong>Delivery:</strong> PDF + Video (10 days before the game)</p>
+    <p><strong>Format:</strong> HUDL or WeTransfer</p>
+  </section>
+
+  <section id="plans">
+    <h2>Plans & Pricing</h2>
+    <table class="plan-table">
+      <thead>
+        <tr>
+          <th>Plan</th>
+          <th>What’s Included</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Basic</td>
+          <td>Player scouting + defensive principles</td>
+          <td>€1000/month</td>
+        </tr>
+        <tr>
+          <td>Pro</td>
+          <td>Basic + Opponent playbook</td>
+          <td>€1250/month</td>
+        </tr>
+        <tr>
+          <td>Elite</td>
+          <td>Pro + System efficiency analysis</td>
+          <td>€1500/month</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>* Discounts available for 3+ month contracts.</p>
+  </section>
+
+  <section>
+    <h2>Samples & Testimonials</h2>
+    <p>See anonymized samples, watch real scouting video, and hear from coaches who’ve used the service.</p>
+    <a href="#contact" class="button">Request Access</a>
+  </section>
+
+  <section id="contact">
+    <h2>Let’s Work Together</h2>
+    <p>Email: <a href="mailto:contact@scoutingpro.com">contact@scoutingpro.com</a></p>
+    <p>WhatsApp: +34 XXX XXX XXX</p>
+    <p>Location: Available worldwide</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BasketballScoutingPro. All rights reserved.</p>
+  </footer>
+</body>
+</html>
